@@ -1,0 +1,22 @@
+{
+  "name": "2025_proyect_urls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "urls_web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamPerezBeltran/openTheUrls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamPerezBeltran/openTheUrls/issues"
+  },
+  "homepage": "https://github.com/WilliamPerezBeltran/openTheUrls#readme",
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  }
+}

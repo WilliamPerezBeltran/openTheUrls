@@ -1,0 +1,11 @@
+https://es.quora.com/Qu%C3%A9-es-en-inform%C3%A1tica-un-buffer
+https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos
+https://www.fortinet.com/lat/resources/cyberglossary/buffer-overflow
+https://labex.io/es/tutorials/c-how-to-manage-input-buffer-in-c-418766
+https://blog.onnasoft.us/es/streams-y-buffers-conceptos-fundamentales-para-la-gestion-de-datos-en-tiempo-real/
+https://www.profesionalreview.com/2024/06/15/buffer-que-es-y-para-que-sirve/
+https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos
+https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos?utm_source=chatgpt.com
+https://es.wikipedia.org/wiki/Protocol_Buffers?utm_source=chatgpt.com
+https://definicionwiki.com/definicion-de-buffer-en-informatica-ejemplos-autores-concepto/
+https://www.geeksforgeeks.org/buffer-in-c-programming/
