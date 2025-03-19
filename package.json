@@ -4,8 +4,10 @@
   "description": "",
   "main": "urls_web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WilliamPerezBeltran/openTheUrls.git"
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/WilliamPerezBeltran/openTheUrls#readme",
   "dependencies": {
-    "chokidar": "^4.0.3"
+    "axios": "^1.8.3",
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   }
 }
