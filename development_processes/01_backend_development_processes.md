@@ -7,7 +7,6 @@ Se va manejar en el backend con Express.js utilizando TypeScript y TypeORM para 
 5. Conexión a PostgreSQL o SQLite3 con TypeORM
 6. Contenerización con Docker
 
-
 backend para que use GraphQL con Apollo Server en lugar de REST.
 
 1. Plan de desarrollo:

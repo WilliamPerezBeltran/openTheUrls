@@ -9,5 +9,6 @@ https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos?utm_source=chatgp
 https://es.wikipedia.org/wiki/Protocol_Buffers?utm_source=chatgpt.com
 https://definicionwiki.com/definicion-de-buffer-en-informatica-ejemplos-autores-concepto/
 https://www.geeksforgeeks.org/buffer-in-c-programming/
+https://www.geeksforgeeks.org/buffer-in-c-programming/
 
 
