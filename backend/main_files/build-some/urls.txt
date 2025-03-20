@@ -1,0 +1,8 @@
+https://www.buildyourownlisp.com/chapter1_introduction#about
+https://build-your-own.org/redis/
+https://howistart.org/posts/clojure/1/index.html
+https://github.com/aliaksandr-s/prototyping-with-clojure?tab=readme-ov-file
+https://shaunlebron.github.io/t3tr0s-slides/#0
+
+https://github.com/shaunlebron/ClojureScript-Syntax-in-15-minutes
+https://www.buildyourownlisp.com

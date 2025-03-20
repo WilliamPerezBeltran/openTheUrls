@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - database
+    environment:
+      - DATABASE_URL=sqlite:///app/database.sqlite
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+
+  database:
+    image: nouchka/sqlite3
+    volumes:
+      - ./database/data:/root/db
+

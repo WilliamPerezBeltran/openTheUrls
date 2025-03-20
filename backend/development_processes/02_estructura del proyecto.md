@@ -1,6 +1,3 @@
-# Estructura del Proyecto
-
-```bash
 project-root/
 │── backend/
 │   ├── src/
@@ -39,39 +36,39 @@ project-root/
 │   ├── package.json
 │   ├── tsconfig.json
 │── database/
-│   ├── docker-compose.yaml
-│── proxy/
-│   ├── nginx.conf
+│   ├── data/
+│   ├── docker-compose.override.yml
 │── .env
 │── README.md
-```
+│── docker-compose.yml
+==============================================================
 
-## Descripción de Archivos y Rutas
+backend/
+│── src/
+│   ├── entities/          # Definición de entidades para TypeORM
+│   │   ├── Title.ts       # Entidad Title
+│   │   ├── Url.ts         # Entidad Url
+│   ├── controllers/       # Controladores para manejar las peticiones HTTP
+│   │   ├── title.controller.ts
+│   │   ├── url.controller.ts
+│   ├── services/          # Lógica de negocio y acceso a base de datos
+│   │   ├── title.service.ts
+│   │   ├── url.service.ts
+│   ├── routes/            # Definición de rutas de la API
+│   │   ├── title.routes.ts
+│   │   ├── url.routes.ts
+│   ├── utils/             # Utilidades (como el watcher de archivos)
+│   │   ├── chokidarWatcher.ts
+│   ├── index.ts           # Punto de entrada principal del backend
+│   ├── app.ts             # Configuración de Express
+│   ├── data-source.ts     # Configuración de TypeORM y base de datos
+├── package.json           # Dependencias del proyecto
+├── tsconfig.json          # Configuración de TypeScript
+├── database.sqlite        # Base de datos SQLite generada
 
-### Backend (/backend/src/)
-- **entities/Title.ts** → Modelo de título (TypeORM)
-- **entities/Url.ts** → Modelo de URL (TypeORM)
-- **controllers/title.controller.ts** → Lógica para gestionar títulos
-- **controllers/url.controller.ts** → Lógica para gestionar URLs
-- **services/title.service.ts** → Funciones para manipular títulos
-- **services/url.service.ts** → Funciones para manipular URLs
-- **routes/title.routes.ts** → Rutas relacionadas con títulos
-- **routes/url.routes.ts** → Rutas relacionadas con URLs
-- **utils/chokidarWatcher.ts** → Servicio de monitoreo de archivos con Chokidar
-- **data-source.ts** → Configuración de TypeORM
-- **app.ts** → Configuración de Express.js
-- **index.ts** → Punto de entrada del backend
 
-### Frontend (/frontend/src/)
-- **components/TitleList.tsx** → Lista de títulos
-- **components/UrlList.tsx** → Lista de URLs por título
-- **pages/Home.tsx** → Página principal
-- **pages/Dashboard.tsx** → Panel de administración
-- **services/api.ts** → API para conectar con el backend
-- **App.tsx** → Configuración principal de React
+Ejecuta en la carpeta backend/:
 
-### Base de Datos (/database/)
-- **docker-compose.yaml** → Configuración de PostgreSQL o SQLite
-
-### Proxy (/proxy/)
-- **nginx.conf** → Configuración del servidor Nginx
+npm init -y
+npm install express cors dotenv sqlite3 typeorm reflect-metadata chokidar axios
+npm install --save-dev typescript ts-node @types/node @types/express @types/cors
