@@ -72,3 +72,7 @@ Ejecuta en la carpeta backend/:
 npm init -y
 npm install express cors dotenv sqlite3 typeorm reflect-metadata chokidar axios
 npm install --save-dev typescript ts-node @types/node @types/express @types/cors
+
+
+
+npm install --save-dev jest ts-jest @types/jest typeorm sqlite3
